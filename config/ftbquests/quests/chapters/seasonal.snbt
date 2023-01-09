@@ -1,0 +1,286 @@
+{
+	id: "712EEC29E9F58AEC"
+	group: "5EC606153AA8CA77"
+	order_index: 1
+	filename: "seasonal"
+	title: " &fSeasonal"
+	icon: "sereneseasons:calendar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft a &bSled"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "Can be placed on the ground like a boat. Lets you slide down hills and other surfaces."
+			dependencies: ["40131BFC98F5E03C"]
+			id: "44FA4ABE94EAD177"
+			tasks: [{
+				id: "00D3FA019EA1A948"
+				type: "item"
+				title: "Any #snowyspirit:sleds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "673492CDB04D587C"
+				type: "item"
+				item: "snowyspirit:winter_disc"
+			}]
+		}
+		{
+			title: "Craft a &cC&fa&cn&fd&cy &fC&ca&fn&ce &fB&cl&fo&cc&fk"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "May your holidays be sweet!"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "0EF8EA8214FEEAB7"
+			tasks: [{
+				id: "0CFA7B64A6A626F5"
+				type: "item"
+				item: "snowyspirit:candy_cane_block"
+			}]
+			rewards: [{
+				id: "627BF9300FFA13DE"
+				type: "item"
+				item: "supplementaries:candy"
+				count: 20
+			}]
+		}
+		{
+			title: "Craft &eGingerbread"
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Used to craft a variety of &eGingerbread&r-related decoration blocks."
+			dependencies: ["40131BFC98F5E03C"]
+			id: "6F24276D322F6549"
+			tasks: [{
+				id: "5C961FE3126D06E9"
+				type: "item"
+				item: "snowyspirit:gingerbread"
+			}]
+			rewards: [{
+				id: "1469C257C8CE647C"
+				type: "item"
+				item: "christmasfestivity:christmas_present_pink"
+			}]
+		}
+		{
+			title: "Build a &bSnowman"
+			icon: "frosted_friends:snow_head_top_hat"
+			x: -1.3928571428571388d
+			y: 1.732142857142854d
+			subtitle: "All three layers of the &bSnowman &rcan be created by shift-clicking a &fSnow Layer&r that's on the ground, and then rolling it by clicking in the direction of more snow. The bottom of the &bSnowman &rrequires a &fMound of Snow&r, the middle requires a &fHeap of Snow&r, and the top is made up of a &fPile of Snow&r which you need to crouch right click on top of the Heap of Snow block in order to place. Click the &fSnowman &rwith a &6Totem of Undying &rfor a surprise. Read the quest description for decorating the &fSnowman&r!"
+			description: [
+				"The following items can be clicked onto a &fSnowman Base&r:"
+				"&eSeeds &r- Gives the &fSnowman &rbuttons and a face"
+				"&eSticks &r- Gives the &fSnowman &rarms"
+				"&eCarved Pumpkin &r- A hat for the &fSnowman&r. Remove with Shears"
+				"&eCarrot &r- Gives the Snowman a carrot nose"
+				"&eChristmas/Top Hat &r- More hats for the &fSnowman&r. Remove with Shears"
+			]
+			size: 1.2d
+			id: "40131BFC98F5E03C"
+			tasks: [{
+				id: "4257D36EDDACC580"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "frosted_friends:pile_of_snow"
+			}]
+			rewards: [
+				{
+					id: "3784FC18E854E75F"
+					type: "item"
+					item: "festive_delight:festive_chiken"
+				}
+				{
+					id: "604C1DE03A4AD4D8"
+					type: "item"
+					item: "christmasfestivity:snowman_block_white"
+				}
+			]
+		}
+		{
+			title: "Craft a &fSnow Golem Plushie"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "A cute &fSnow Golem &rdecoration!"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "7BBCCB63DFCBB79E"
+			tasks: [{
+				id: "5C037697AFAC57B9"
+				type: "item"
+				item: "plushies:snow_golem"
+			}]
+			rewards: [{
+				id: "29CE0B652046F906"
+				type: "item"
+				item: "christmasfestivity:hot_chocolate"
+			}]
+		}
+		{
+			title: "Craft a &dPresent"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "A great way to give gifts to friends (or yourself)"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "40BA61DBF53991AA"
+			tasks: [{
+				id: "108C9F26C2870B30"
+				type: "item"
+				title: "Any #supplementaries:presents"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "supplementaries:presents"
+					}
+				}
+			}]
+			rewards: [{
+				id: "617CA145B2B21A1E"
+				type: "item"
+				item: "snowyspirit:snow_globe"
+			}]
+		}
+		{
+			title: "Craft a &f&lSnowy Christmas Tree"
+			x: -2.0d
+			y: 3.5d
+			subtitle: "A pre-built tree!"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "252B26093A70BBC4"
+			tasks: [{
+				id: "5E00F8535BDEACF9"
+				type: "item"
+				item: "christmasfestivity:snowy_christmas_tree"
+			}]
+			rewards: [{
+				id: "52EFAD2AA1CA8486"
+				type: "item"
+				item: "christmasfestivity:garland_round"
+			}]
+		}
+		{
+			title: "Craft a &6Fireplace Mantel"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Search \"Mantel Decoration\" in JEI for more decorations!"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "683C3E77D68DFC18"
+			tasks: [{
+				id: "7EC05C4E2A99AA4B"
+				type: "item"
+				item: "maidensmerrymaking:mantel_normal_oak"
+			}]
+			rewards: [
+				{
+					id: "094D6F0F9B5EC2F9"
+					type: "item"
+					item: "maidensmerrymaking:mantel_deco_1"
+				}
+				{
+					id: "5C69E22CB95E348A"
+					type: "item"
+					item: "maidensmerrymaking:stocking"
+				}
+			]
+		}
+		{
+			title: "Craft an &fEpiphany Stocking"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Emits light. Can store up to 9 items."
+			dependencies: ["40131BFC98F5E03C"]
+			id: "7AA36FE99BAF4D27"
+			tasks: [{
+				id: "1A324E786EFFD1B5"
+				type: "item"
+				item: "christmasfestivity:epiphany_stocking_white"
+			}]
+			rewards: [{
+				id: "38AA0D7BACE2C628"
+				type: "item"
+				item: "christmasfestivity:christmas_present_orange"
+			}]
+		}
+		{
+			title: "Craft a &6Gingerbread Man"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Fills three hunger bars"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "492DDAB02F0A8A31"
+			tasks: [{
+				id: "2F6EA9424D980BF4"
+				type: "item"
+				item: "christmasfestivity:gingerbread_man"
+			}]
+			rewards: [{
+				id: "5CEFD0CBBA72D751"
+				type: "item"
+				item: "festive_delight:christmas_tea"
+			}]
+		}
+		{
+			title: "Craft a &cSanta Hat&c"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Santa lost his hat"
+			dependencies: ["40131BFC98F5E03C"]
+			id: "6E062250A11D197E"
+			tasks: [{
+				id: "02B25A7336FFBD77"
+				type: "item"
+				item: {
+					id: "frosted_friends:christmas_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "352AC99055A00865"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48AD5B101A43F208"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B3BE7A145F7B9F"
+					type: "item"
+					item: {
+						id: "frosted_friends:ice_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

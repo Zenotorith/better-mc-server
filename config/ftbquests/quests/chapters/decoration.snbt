@@ -1,0 +1,46 @@
+{
+	id: "3B95E66C126DBBEF"
+	group: "5EC606153AA8CA77"
+	order_index: 0
+	filename: "decoration"
+	title: " &9Decoration"
+	icon: "adorn:oak_chair"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft a &8&lDragon Plushie"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "One of the many mob plushies from the Plushies mod."
+			id: "12D4044932EEF253"
+			tasks: [{
+				id: "2EC84E3C457ECFEA"
+				type: "item"
+				item: "plushies:dragon"
+			}]
+			rewards: [{
+				id: "56FD6212C5A5A2DB"
+				type: "item"
+				item: "plushies:dolphin"
+			}]
+		}
+		{
+			title: "Craft &oDecorating Your Home"
+			x: -3.5d
+			y: -0.5d
+			subtitle: "A detailed guidebook for the Adorn mod."
+			id: "27CA0D18235360A1"
+			tasks: [{
+				id: "4E5C553A94290A8D"
+				type: "item"
+				item: "adorn:guide_book"
+			}]
+			rewards: [{
+				id: "1229487121D0D6C7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+	]
+}

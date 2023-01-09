@@ -1,0 +1,10 @@
+{
+	id: "60406D60038871E3"
+	order_index: 0
+	title: "End Quest"
+	loot_size: 1
+	rewards: [
+		{ title: "&616x Spectral Arrows", item: "minecraft:spectral_arrow", count: 16 }
+		{ title: "&c2x Bed", item: "minecraft:red_bed", count: 2 }
+	]
+}
